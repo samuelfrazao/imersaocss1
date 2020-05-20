@@ -1,21 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="pt-br">
+  <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samuel Frazão</title>
     <link rel="stylesheet" href="css/estilos.css">
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Orbitron&display=swap" rel="stylesheet">
+
+    <script
+      src="https://kit.fontawesome.com/6d6952c5be.js"
+      crossorigin="anonymous"
+   ></script>
+  </head>
+  <body>
     <header>
-        <nav class="menu">
-          <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
+      <nav class="menu">
+        <ul class="container">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#portfolio">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="titulo">
         <h1 class="site-title">Samuel Frazão</h1>
         <h2 class="site-subtitle">Analista de Sistemas Mainframe</h2>
-      </header>    
-</body>
+        <h2 class="site-subtitle">EMV | ATM | Criptografia</h2>
+      </div>
+    </header>
+    <section class="sobre container" id="sobre">
+      <h2>Sobre</h2>
+
+      <figure class="avatar">
+        <img src="./img/samuel-avatar.png" alt="Samuel Frazão">
+      </figure>
+
+      <p>
+        Sou Bacharel em Sistemas de Informação formado em 2007 no Centro
+        Universitário Anhanguera.
+      </p>
+
+      <p>
+        Iniciei a minha carreira na empresa multinacional indiana TATA
+        Consultancy Services como Desenvolvedor de Sistemas Mainframe,
+        participando dos projetos de outsourcing do ABN Amro Bank Real
+        no desenvolvimento de sistemas em linguagem de programação PL/I
+        com CICS e ADABAS, Natural com ADABAS e COBOL com CICS e DB2.
+      </p>
+
+      <p>
+        Me tornei Analista de Sistemas Mainframe na empresa HST Card
+        Technology, participando de projetos de Criptografia e cartões
+        de crédito no padrão EMV de diversas instituições financeiras,  
+        desenvolvendo sistemas em COBOL com CICS e DB2. 
+      </p>
+
+      <p>
+        Em 2011 participei da transição entre a empresa brasileira CPM Braxis 
+        e a francesa Capgemini.
+        Nesta época participei de projetos do Banco Santander, referente à
+        Circular 3.461, que consolida as regras sobre os procedimentos a serem
+        adotados na prevenção e combate às atividades relacionadas com os crimes
+        previstos na Lei nº 9.613, de 3 de Março de 1998 (Crime de lavagem de
+        dinheiro), atuando na análise e desenvolvimento de Sistemas Mainframe. 
+      </p>
+      <p>
+        Atualmente participo da análise e desenvolvimento de projetos referente 
+        à Criptografia, gerenciamento de campanha de vendas e ATM (Caixa Eletrônico).
+       </p>
+
+      <p>
+        Este site foi construído durante a
+        <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a>
+      </p>
+    </section>
+    <section class="portfolio container" id="portfolio">
+      <h2>Projetos</h2>
+
+      <div class="grid">
+		  
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/tcs.png" alt="TCS">
+            </figure>
+            <div class="card-back">
+              <h3>TCS</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/hst.png" alt="HST">
+            </figure>
+            <div class="card-back">
+              <h3>HST</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/capgemini.png" alt="Capgemini">
+            </figure>
+            <div class="card-back">
+				      <h3>Capgemini</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/wipro.png" alt="Wipro">
+            </figure>
+            <div class="card-back">
+              <h3>Wipro</h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <section class="contato container" id="contato">
+      <h2>Contato</h2>
+
+      <div class="grid icons">
+        <a target="_blank" href="https://github.com/samuelfrazao">
+          <i class="fab fa-github"></i>
+        </a>
+        <a target="_blank" href="https://twitter.com/Samuel_Frazao">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/samuel-frazao/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </section>
+  </body>
 </html>
